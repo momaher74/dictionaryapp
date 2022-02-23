@@ -16,7 +16,7 @@ class AppCubit extends Cubit<AppState> {
     emit(GetMeaningLoadingState());
     DioHelper.getData(url: 'entries/en/$word',).then((value) {
       meaning =value.data[0];
-      print(value.data[0]);
+//       print(value.data[0]);
       emit(GetMeaningSuccessState());
     }).catchError(
       (error) {
