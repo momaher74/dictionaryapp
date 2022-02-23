@@ -1,4 +1,4 @@
-# taskaty
+# dictionary
 
 A new Flutter project.
 
